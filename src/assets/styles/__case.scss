@@ -1,0 +1,30 @@
+.case{
+  text-align: center;
+  padding-top: 120px;
+  background-color: $lightPurle;
+  padding-bottom: 110px;
+}
+.utility{
+  background-color: $dark2;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 110px;
+  &__title {
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+
+  }
+
+  &__text {
+    color: #ffffff;
+
+  }
+  &__sub{
+    font-size: 25px;
+    color: #ffffff;
+    padding-top: 39px;
+  }
+}

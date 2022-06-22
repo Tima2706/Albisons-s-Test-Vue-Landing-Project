@@ -1,0 +1,36 @@
+.cards {
+  padding-top: 120px;
+  text-align: center;
+  padding-bottom: 110px;
+
+  &-item  {
+    padding-top: 70px;
+    &:hover{
+      padding-top: 5px;
+      transition: .9s;
+    }
+  }
+
+  &__item {
+    cursor: pointer;
+  }
+
+  &__title {
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: $darkblue;
+
+  }
+
+  &__text {
+    color: $ligherDark;
+
+  }
+  &__sub{
+    font-size: 25px;
+    color: $darkblue;
+    padding-top: 39px;
+  }
+}

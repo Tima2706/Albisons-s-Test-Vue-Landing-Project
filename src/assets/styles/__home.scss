@@ -1,0 +1,133 @@
+.home {
+  &__background {
+    background-image: url("https://assets.website-files.com/6218605145a2e6339ee94d62/621df95e87e3a51e471c8626_error-bg.jpg");
+    border-radius: 20px;
+    background-color: #242f65;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 163px;
+    padding-bottom: 140px;
+
+  }
+
+  &-intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-btn {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__title {
+    font-family: 'Fraunces', serif;
+    color: $darkblue;
+    font-size: 100px;
+    position: relative;
+    padding-bottom: 10px;
+
+    & span {
+      color: $orange;
+      position: absolute;
+      left: 75%;
+    }
+  }
+
+  &__text {
+    color: $darkblue;
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  &-img{
+    position: relative;
+    padding-top: 58.5px;
+  }
+  &__toggle{
+    position: absolute;
+    bottom: 27%;
+    left: 45%;
+  }
+
+
+}
+
+.btn-orange {
+  background: $orange;
+  border: 1px solid $orange;
+  border-radius: 10px;
+  padding: 21px 71px;
+  color: #ffffff;
+
+  &:hover {
+    background-color: transparent;
+    color: $orange;
+  }
+}
+
+.btn-purle {
+  background: $purple;
+  border: 1px solid $purple;
+  border-radius: 10px;
+  padding: 21px 71px;
+  color: #ffffff;
+
+  &:hover {
+    background-color: transparent;
+    color: $purple;
+  }
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.home__img{
+  animation: spin 5s linear 0s infinite;
+}
+
+@media (max-width: 1200px) {
+  .home{
+    &__title{
+      font-size: 80px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .home{
+    &__title{
+      font-size: 60px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .home{
+    &__title{
+      font-size: 45px;
+    }
+    &__text{
+      font-size: 20px;
+    }
+    .btn-purle{
+      padding: 21px 50px;
+    }
+    .btn-orange{
+      padding: 21px 50px;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .home-btn{
+    flex-direction: column;
+  }
+  .home__title{
+    font-size: 30px;
+  }
+  .home__text{
+    font-size: 16px;
+  }
+}
