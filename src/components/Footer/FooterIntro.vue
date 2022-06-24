@@ -28,7 +28,7 @@
             Available for Work</a>
         </h1>
         <h1>
-          <a href="https://dribbble.com/JulianoF"><img
+          <a style="padding-left: 82px" href="https://dribbble.com/JulianoF"><img
               src="https://assets.website-files.com/6218605145a2e6339ee94d62/6218605145a2e68935e94d77_footer-victory-sign.png">
             Get in Touch</a> <a href="https://dribbble.com/JulianoF"><img
             src="https://assets.website-files.com/6218605145a2e6339ee94d62/6218605145a2e62fbce94d76_footer-desktop.png">
